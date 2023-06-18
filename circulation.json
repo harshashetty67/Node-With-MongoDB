@@ -1,0 +1,20 @@
+[
+    {
+        "Newspaper": "Vijayavani",
+        "Daily Circulation, 2004": 250,
+        "Daily Circulation, 2013": 2500,
+        "Change in Daily Circulation, 2004-2013": 13,
+        "Pulitzer Prize Winners and Finalists, 1990-2003": 30,
+        "Pulitzer Prize Winners and Finalists, 2004-2014": 20,
+        "Pulitzer Prize Winners and Finalists, 1990-2014": 50
+    },
+    {
+        "Newspaper": "Karavali Ale",
+        "Daily Circulation, 2004": 60,
+        "Daily Circulation, 2013": 600,
+        "Change in Daily Circulation, 2004-2013": 67,
+        "Pulitzer Prize Winners and Finalists, 1990-2003": 55,
+        "Pulitzer Prize Winners and Finalists, 2004-2014": 62,
+        "Pulitzer Prize Winners and Finalists, 1990-2014": 117
+    }
+]
