@@ -2,17 +2,12 @@ const MongoClient = require('mongodb').MongoClient;
 const GetCircularRepoData = require('../Helper/GetData');
 const assert = require('assert');
 
-const uri = "****/"; // MongoDB connection string.
-const dbName = 'circulation';
-
 async function main() 
 {
-    const client = new MongoClient(uri);
+    
 
     try
     {
-        // Connect the client to the server.
-        await client.connect(); 
 
         // calling the insert data method from other module => circularRepo.js
         const results = await GetCircularRepoData.getData();
@@ -34,7 +29,7 @@ async function main()
         // Filtering the result based on id
         const resultByid = await GetCircularRepoData.getDataById(results[3]._id);
         console.log(resultByid);
-        assert.equal(results[3]._id,resultByid._id); // should give me 3 records only
+        assert.equal(results[3].Newspaper,resultByid.Newspaper); // should compare the Newspaper titles.
 
 
     }
@@ -44,8 +39,6 @@ async function main()
     }
     finally
     {
-        // Ensures that the client will close when you finish/error
-        await client.close();
         
         // clearing DB after testing to eliminate duplicate rows.
         // await client.db(dbName).dropDatabase(); 

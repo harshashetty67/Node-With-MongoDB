@@ -1,8 +1,8 @@
-const { MongoClient} = require('mongodb');
+const { MongoClient, ObjectID} = require('mongodb'); // the ObjectId helps in converting the _id object to string.
 
 function GetCircleData()
 {
-    const uri = "*****"; // MongoDB connection string.
+    const uri = "******"; // MongoDB connection string.
     const dbName = 'circulation';
     const client = new MongoClient(uri); // create a client to the mongodb server
 
@@ -48,7 +48,7 @@ function GetCircleData()
                 // connect to the db
                 const db = client.db(dbName);
 
-                let result = await db.collection('NewsPapers').findOne({_id:id}); // findOne() returns only one record mathcing the filter expression.
+                const result = await db.collection('NewsPapers').findOne({_id: id}); // findOne() returns only one record mathcing the filter expression.
                 
                 resolve(result); // resolve the result      
             }
