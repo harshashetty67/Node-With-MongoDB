@@ -28,7 +28,6 @@ async function main()
         console.log(resultByid);
         assert.equal(results[3].Newspaper,resultByid.Newspaper); // should compare the Newspaper titles.
 
-
     }
     catch(err)
     {
