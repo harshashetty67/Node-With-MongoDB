@@ -2,7 +2,7 @@ const { MongoClient, ObjectID} = require('mongodb'); // the ObjectId helps in co
 
 function GetCircleData()
 {
-    const uri = "******"; // MongoDB connection string.
+    const uri = "mongodb+srv://harshashetty67:dHs8ttYwb2hvf7Fr@my-mongo.elbhwd6.mongodb.net/"; // MongoDB connection string.
     const dbName = 'circulation';
     const client = new MongoClient(uri); // create a client to the mongodb server
 

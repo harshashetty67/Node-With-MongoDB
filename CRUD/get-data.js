@@ -3,12 +3,9 @@ const GetCircularRepoData = require('../Helper/GetData');
 const assert = require('assert');
 
 async function main() 
-{
-    
-
+{  
     try
     {
-
         // calling the insert data method from other module => circularRepo.js
         const results = await GetCircularRepoData.getData();
         console.log(results);
