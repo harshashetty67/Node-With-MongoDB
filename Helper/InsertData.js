@@ -3,7 +3,7 @@ const { MongoClient} = require('mongodb');
 function Circlerepo()
 {
     const uri = "*****"; // MongoDB connection string.
-    const dbName = 'circulation';
+    const dbName = 'Dominos';
     const client = new MongoClient(uri); // create a client to the mongodb server
 
     function LoadData(data)
@@ -17,7 +17,7 @@ function Circlerepo()
                 // connect to the db
                 const db = client.db(dbName);
 
-                result = await db.collection('NewsPapers').insertMany(data); // inserting multplie records at once using insertMany() method by passing json object.      
+                result = await db.collection('PizzaMenu').insertMany(data); // inserting multplie records at once using insertMany() method by passing json object.      
                 resolve(result); // resolve the result returned by insertMany()                  
             }
             catch(err)

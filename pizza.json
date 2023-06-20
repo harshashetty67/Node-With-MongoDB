@@ -1,0 +1,66 @@
+[
+    {
+        "id": 0,
+        "name": "Pepperoni",
+        "size": "small",
+        "price": 180,
+        "quantity": 10,
+        "date": "2021-03-13T08:14:30Z"
+    },
+    {
+        "id": 1,
+        "name": "Pepperoni",
+        "size": "medium",
+        "price": 300,
+        "quantity": 20,
+        "date": "2021-03-13T09:13:24Z"
+    },
+    {
+        "id": 2,
+        "name": "Pepperoni",
+        "size": "medium",
+        "price": 300,
+        "quantity": 20,
+        "date": "2021-04-13T09:13:24Z"
+    },
+    {
+        "id": 3,
+        "name": "BBQ",
+        "size": "large",
+        "price": 700,
+        "quantity": 3,
+        "date": "2021-05-17T09:22:12Z"
+    },
+    {
+        "id": 4,
+        "name": "BBQ",
+        "size": "medium",
+        "price": 360,
+        "quantity": 15,
+        "date": "2021-03-13T11:21:39.736Z"
+    },
+    {
+        "id": 5,
+        "name": "Cheese",
+        "size": "medium",
+        "price": 500,
+        "quantity": 50,
+        "date": "2022-01-12T21:23:13.331Z"
+    },
+    {
+        "id": 6,
+        "name": "Cheese",
+        "size": "medium",
+        "price": 500,
+        "quantity": 8,
+        "date": "2023-02-10T21:23:13.331Z"
+    },
+    {
+        "id": 7,
+        "name": "BBQ",
+        "size": "medium",
+        "price": 360,
+        "quantity": 45,
+        "date": "2023-03-19T09:22:12Z"
+    }
+]
